@@ -31,15 +31,15 @@ them to production just like any other PHP code.
 
 + To install the Scheduled plugin, you can use composer. From your application's ROOT directory (where composer.json file is located) run the following:
 
-    ```composer require cakephp-scheduled-plugin```
+    ```composer require token27/cakephp-scheduled-plugin```
 
 
 	
 + Load the plugin via the following command:
 
-	```bin/cake plugin load Scheduled```
+	```path-to-project/bin/cake plugin load Scheduled```
 
-+ You can add the following line to your application's `src/Application.php` file:
++ or you can add the following line to your application's file: `path-to-project/config/bootstrap.php` 
 
     ```Plugin::load('Scheduled');```
     
